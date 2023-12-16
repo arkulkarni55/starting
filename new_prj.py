@@ -2,7 +2,7 @@ import streamlit as st
 
 st.header('st.button')
 
-if st.button ('Say hello'):
-  st.write('nice one')
+if st.button('Say hello'):
+     st.write('Why hello there')
 else:
-  st.write('good bye')
+     st.write('Goodbye')
